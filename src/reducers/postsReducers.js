@@ -8,7 +8,8 @@ export default (state = [], action) => {     //previous data + action = new stat
     }
 
     return state; */
-    switch (action.type) {
+    /*Mutations are possible by the methods shown in the video 268 */
+    switch (action.type) { 
         case "FETCH_POSTS" : 
             return action.payload;
         default : 
